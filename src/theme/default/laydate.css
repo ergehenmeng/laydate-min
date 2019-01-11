@@ -37,11 +37,11 @@ html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 .layui-laydate-list li{transition-duration: .3s; -webkit-transition-duration: .3s;}
 
 @-webkit-keyframes laydate-upbit{ /* 微微往上滑入 */
-  from {-webkit-transform: translate3d(0, 20px, 0); opacity: 0.3;}
+  from {-webkit-transform: translate3d(0, 10px, 0); opacity: 0.3;}
   to {-webkit-transform: translate3d(0, 0, 0);  opacity: 1;}
 }
 @keyframes laydate-upbit{
-  from {transform: translate3d(0, 20px, 0);  opacity: 0.3;}
+  from {transform: translate3d(0, 10px, 0);  opacity: 0.3;}
   to {transform: translate3d(0, 0, 0);  opacity: 1;}
 }
 .layui-laydate{-webkit-animation-name: laydate-upbit; animation-name: laydate-upbit;}
